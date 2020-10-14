@@ -23,11 +23,6 @@ namespace CoreTacocaT.Controllers
             return View();
         }
 
-        public IActionResult Code()
-        {
-            return View();
-        }
-
         [HttpGet]
         public IActionResult Solve()
         {
